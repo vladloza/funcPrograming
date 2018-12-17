@@ -1,0 +1,62 @@
+#lang scheme
+
+  (define (gcd-poly p1 p2)
+    (if (same-variable? (variable p1) (variable p2))
+        (make-poly (variable p1) (gcd-terms (term-list p1) (term-list p2)))
+        (error "Polynomials don't use the same variables" 
+               (list (variable p1) (variable p2)))))
+  
+  (define (tag p) (attach-tag 'polynomial p))
+  (put 'add '(polynomial polynomial) 
+       (lambda (p1 p2) (tag (add-poly p1 p2))))
+  (put 'add '(polynomial number)
+       (lambda (p n) (tag (add-poly (make-poly (variable p) (adjoin-term (make-term 0 n)
+                                                                         (the-empty-termlist)))
+                                    p))))
+  (put 'add '(number polynomial)
+       (lambda (n p) (tag (add-poly (make-poly (variable p) (adjoin-term (make-term 0 n)
+                                                                         (the-empty-termlist)))
+                                    p))))
+  (put 'mul '(number polynomial)
+       (lambda (n p) (tag (mul-poly (make-poly (variable p) (adjoin-term (make-term 0 n)
+                                                                         (the-empty-termlist)))
+                                    p))))
+  (put 'mul '(polynomial number)
+       (lambda (p n) (tag (mul-poly (make-poly (variable p) (adjoin-term (make-term 0 n)
+                                                                         (the-empty-termlist)))
+                                    p))))
+  (put 'mul '(polynomial polynomial)
+       (lambda (p1 p2) (tag (mul-poly p1 p2))))
+  (put 'div '(polynomial polynomial)
+       (lambda (p1 p2) (tag (div-poly p1 p2))))
+  (put 'make 'polynomial
+       (lambda (var terms) (tag (make-poly var terms))))
+  (put '=zero? '(polynomial)
+       (lambda (p) (or (empty-termlist? (term-list p))
+                       (=poly-zero? (term-list p)))))
+  (put 'negate '(polynomial)
+       (lambda (p) (tag (make-poly (variable p) (poly-negate (term-list p))))))
+  (put 'sub '(polynomial polynomial)
+       (lambda (p1 p2) (tag (sub-poly p1 p2))))
+  (put 'greatest-common-divisor '(polynomial polynomial)
+       (lambda (p1 p2) (tag (gcd-poly p1 p2))))
+  "Polynomial package installed!")
+
+(define (make-poly var terms)
+  ((get 'make 'polynomial) var terms))
+
+;;; load up the packages =======================================================
+
+(install-number-package)
+(install-polynomial-package)
+
+(define P1 (make-poly 'x '((2 1) (1 -2) (0 1))))
+(define P2 (make-poly 'x '((2 11) (0 1))))
+(define P3 (make-poly 'x '((1 13) (0 5))))
+(define Q1 (mul P1 P2))
+(define Q2 (mul P1 P3))
+(greatest-common-divisor Q1 Q2)
+
+(define POL1 (make-poly 'x '((3 1) (2 -12) (0 -42))))
+(define POL2 (make-poly 'x '((1 1) (0 -3))))
+(div POL1 POL2)

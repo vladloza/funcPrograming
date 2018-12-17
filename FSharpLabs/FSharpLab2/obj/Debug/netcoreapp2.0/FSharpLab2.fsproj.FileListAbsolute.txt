@@ -1,0 +1,7 @@
+D:\Univ\4 курс\F# Labs\FSharpLabs\FSharpLab2\bin\Debug\netcoreapp2.0\FSharpLab2.deps.json
+D:\Univ\4 курс\F# Labs\FSharpLabs\FSharpLab2\bin\Debug\netcoreapp2.0\FSharpLab2.runtimeconfig.json
+D:\Univ\4 курс\F# Labs\FSharpLabs\FSharpLab2\bin\Debug\netcoreapp2.0\FSharpLab2.runtimeconfig.dev.json
+D:\Univ\4 курс\F# Labs\FSharpLabs\FSharpLab2\bin\Debug\netcoreapp2.0\FSharpLab2.dll
+D:\Univ\4 курс\F# Labs\FSharpLabs\FSharpLab2\bin\Debug\netcoreapp2.0\FSharpLab2.pdb
+D:\Univ\4 курс\F# Labs\FSharpLabs\FSharpLab2\obj\Debug\netcoreapp2.0\FSharpLab2.dll
+D:\Univ\4 курс\F# Labs\FSharpLabs\FSharpLab2\obj\Debug\netcoreapp2.0\FSharpLab2.pdb

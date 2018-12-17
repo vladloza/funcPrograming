@@ -1,0 +1,16 @@
+C:\Users\Vlad\Desktop\F# Labs\FSharpLabs\FSharpLab1\bin\Debug\netcoreapp2.0\FSharpLab1.deps.json
+C:\Users\Vlad\Desktop\F# Labs\FSharpLabs\FSharpLab1\bin\Debug\netcoreapp2.0\FSharpLab1.runtimeconfig.json
+C:\Users\Vlad\Desktop\F# Labs\FSharpLabs\FSharpLab1\bin\Debug\netcoreapp2.0\FSharpLab1.runtimeconfig.dev.json
+C:\Users\Vlad\Desktop\F# Labs\FSharpLabs\FSharpLab1\bin\Debug\netcoreapp2.0\FSharpLab1.dll
+C:\Users\Vlad\Desktop\F# Labs\FSharpLabs\FSharpLab1\bin\Debug\netcoreapp2.0\FSharpLab1.pdb
+C:\Users\Vlad\Desktop\F# Labs\FSharpLabs\FSharpLab1\obj\Debug\netcoreapp2.0\FSharpLab1.fsprojResolveAssemblyReference.cache
+C:\Users\Vlad\Desktop\F# Labs\FSharpLabs\FSharpLab1\obj\Debug\netcoreapp2.0\FSharpLab1.dll
+C:\Users\Vlad\Desktop\F# Labs\FSharpLabs\FSharpLab1\obj\Debug\netcoreapp2.0\FSharpLab1.pdb
+D:\Univ\4 курс\F# Labs\FSharpLabs\FSharpLab1\bin\Debug\netcoreapp2.0\FSharpLab1.deps.json
+D:\Univ\4 курс\F# Labs\FSharpLabs\FSharpLab1\bin\Debug\netcoreapp2.0\FSharpLab1.runtimeconfig.json
+D:\Univ\4 курс\F# Labs\FSharpLabs\FSharpLab1\bin\Debug\netcoreapp2.0\FSharpLab1.runtimeconfig.dev.json
+D:\Univ\4 курс\F# Labs\FSharpLabs\FSharpLab1\bin\Debug\netcoreapp2.0\FSharpLab1.dll
+D:\Univ\4 курс\F# Labs\FSharpLabs\FSharpLab1\bin\Debug\netcoreapp2.0\FSharpLab1.pdb
+D:\Univ\4 курс\F# Labs\FSharpLabs\FSharpLab1\obj\Debug\netcoreapp2.0\FSharpLab1.dll
+D:\Univ\4 курс\F# Labs\FSharpLabs\FSharpLab1\obj\Debug\netcoreapp2.0\FSharpLab1.pdb
+D:\Univ\4 курс\F# Labs\FSharpLabs\FSharpLab1\obj\Debug\netcoreapp2.0\FSharpLab1.fsprojResolveAssemblyReference.cache

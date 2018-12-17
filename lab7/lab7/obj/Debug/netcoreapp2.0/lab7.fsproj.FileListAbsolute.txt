@@ -1,0 +1,8 @@
+C:\Users\Vlad\Desktop\lab7\lab7\bin\Debug\netcoreapp2.0\lab7.deps.json
+C:\Users\Vlad\Desktop\lab7\lab7\bin\Debug\netcoreapp2.0\lab7.runtimeconfig.json
+C:\Users\Vlad\Desktop\lab7\lab7\bin\Debug\netcoreapp2.0\lab7.runtimeconfig.dev.json
+C:\Users\Vlad\Desktop\lab7\lab7\bin\Debug\netcoreapp2.0\lab7.dll
+C:\Users\Vlad\Desktop\lab7\lab7\bin\Debug\netcoreapp2.0\lab7.pdb
+C:\Users\Vlad\Desktop\lab7\lab7\obj\Debug\netcoreapp2.0\lab7.fsprojResolveAssemblyReference.cache
+C:\Users\Vlad\Desktop\lab7\lab7\obj\Debug\netcoreapp2.0\lab7.dll
+C:\Users\Vlad\Desktop\lab7\lab7\obj\Debug\netcoreapp2.0\lab7.pdb
